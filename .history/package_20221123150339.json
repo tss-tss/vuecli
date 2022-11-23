@@ -1,0 +1,32 @@
+{
+  "name": "vuecli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "types": "dist/types/index.d.ts",
+  "type": "module",
+  "scripts": {
+    "dev": "tsc --watch",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npm run clean && tsc",
+    "clean": "rimraf dist"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tss-tss/vuecli.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tss-tss/vuecli/issues"
+  },
+  "homepage": "https://github.com/tss-tss/vuecli#readme",
+  "devDependencies": {
+    "rimraf": "^3.0.2",
+    "typescript": "^4.9.3"
+  }
+}
